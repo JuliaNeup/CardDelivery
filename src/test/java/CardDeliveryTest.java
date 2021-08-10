@@ -24,7 +24,7 @@ public class CardDeliveryTest {
 
     @BeforeEach
     void setUp() {
-        open("http://localhost:9999/");
+        open("http://localhost:9999");
         $("[data-test-id=date] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE);
     }
 
