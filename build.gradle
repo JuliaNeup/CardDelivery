@@ -10,6 +10,7 @@ sourceCompatibility = 1.8
 // кодировка файлов (если используете русский язык в файлах)
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
+testImplementation 'org.slf4j:slf4j-simple:1.7.30'
 
 repositories {
     mavenCentral()
